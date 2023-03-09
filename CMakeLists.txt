@@ -103,8 +103,8 @@ generate_messages(
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
- LIBRARIES dwm1000_msgs
- CATKIN_DEPENDS std_msgs message_runtime
+#  LIBRARIES dwm1000_msgs
+ CATKIN_DEPENDS message_runtime std_msgs
 #  DEPENDS system_lib
 )
 
